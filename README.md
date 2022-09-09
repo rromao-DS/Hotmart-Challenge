@@ -71,9 +71,9 @@ Já uma venda é feita por um produtor quando alguém tem acesso direto ao seu p
 
 **Passo 04** – Análise Exploratória de dado: Etapa mais importante do projeto, onde ganhamos experiência de negócio, validamos hipóteses e percebemos quais variáveis serão importantes para o modelo.
 
-**Passo 05** – Preparação de dados: Etapa onde preparamos os dados para os modelos de aprendizado de máquina, Rescaling, Enconding, Nature Transformation, entre outras transformações.
+**Passo 05** – Preparação de dados: Etapa onde preparamos os dados para os modelos de aprendizado de máquina, Rescaling, Enconding, PCA, UMAP, Nature Transformation, entre outras transformações.
 
-**Passo 06** – Feature Selection – Etapa onde se seleciona os atributos mais relevantes para o projeto, nesse passo utilizamos o método BORUTA e realizamos um comparativo com o que o BORUTA selecionou mais as hipóteses validadas no passo 04.
+**Passo 06** – Feature Selection – Etapa onde se seleciona os atributos mais relevantes para o projeto
 
 **Passo 07** – Machine Learning Modelling – Etapa onde se treina os modelos de aprendizado de máquina.
 
@@ -81,19 +81,24 @@ Já uma venda é feita por um produtor quando alguém tem acesso direto ao seu p
 
 # Data Insights
 
-#### Quantidade de compras que foram efetuada diretamente pelo produtor, não tiveram afiliados intermediando. 
+- Foram 1247083 compras que tiveram afiliados como intermediário no processo da compra e 352746 compras  não tiveram afiliados como intermediário 
 
-#### Os produtores com mais produtos vendidos
+- O Produtor 19736962 foi o que mais vendeu produtos. Totalizando 319129 produtos consumidos no espaço de tempo de 6 meses. 
 
-#### Das Compras efetuadas por intermédio de um afiliado qual foi a maior compra
+- Os nichos de produtos que mais vendem são produtos relacionado a Gerenciamento de ansiedade, Negociação, Finanças pessoais, Habilidades de Apresentação 
 
-### Clientes que compraram acima de 30 cursos e precisam ser retidos
+-  Em análise dos gráficos da soma de produtos vendidos por nicho destaco 3 nichos que poderiam passar por campanhas de marketing para impulsionar as vendas. São eles: Carreiras, Online Youtube Video Creation e Online Course Creation. Pois os nichos em maior crescimento são aqueles dentro de carreiras, comportamento humano e desenvolvimento pessoal.
+
+- Em análise ao grafico de vendas por mês identificamos que a maioria dos produtos comprados estão abaixo da média de preço. Com exeção ao mês de março que teve maior periodo de venda. 
+
+- Possívelmente relacionado aos feriados do mês de fevereiro, ele é o mês com menor compra. Nos faz inferir que não é o melhor momento para criação de conteudo.
+
+- As três categorias de produtos mais consumidas na plataforma são: Livro Fisico, Workshop e Podcasts.
 
 
 #  Conclusão
 
-Para o primeiro ciclo do CRISP, obteve um excelente resultado e bem aceitável, no quarto gráfico, da para perceber que existem algumas lojas que nao estão centralizadas no cone, essas lojas por algum motivo apresentaram
-um erro um pouco alto comparado com as outras lojas, em um segundo ciclo da metodologia (CRISP-DM) será analisado a risca para entender o que está afetando esse fenômeno.
+Para o primeiro ciclo do CRISP-DM conseguimos gerar insights e features que possam responder as perguntas do negócio. Porém, no segundo ciclo buscaremos nos aprofundar na preparação do dataset com as features corretas e preparadas para que possamos clusterizar os dados e gerarmos melhores insights 
 
 #  Próximos Passos
 
